@@ -1,0 +1,18 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+.bg-green { background-color: green; }
+
+.text-black { color: #000; }
+.text-center { text-align: center; }
+.fs-50 { font-size: 50px; }
+
+.p-10 { padding: 10px; }
+.m-10 { margin: 10px; }
+
+.border-solid { border-style: solid; }
+.border-dotted-full { border: 10px dotted black; }
+.border-5 { border-width: 5px; }
+.border-black { border-color: #000; }
+.border-inline { display: inline-block; }
+
+.h-450 { height: 450px; }
