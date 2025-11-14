@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coffee Mug Product Card</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 p-10">
+
+  <div class="max-w-6xl mx-auto bg-white shadow-lg p-10">
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+
+      <!-- Left image -->
+      <div>
+        <img 
+          src="https://codeyogi.io/coffee-mug.jpeg" 
+          class="w-full h-full object-cover rounded" 
+          alt="Coffee Mug"
+        />
+      </div>
+
+      <!-- Right text section -->
+      <div class="flex flex-col justify-center">
+
+        <h1 class="text-3xl md:text-4xl font-bold text-gray-700 mb-4">
+          Black Printed Coffee Mug
+        </h1>
+
+        <p class="text-2xl font-semibold text-gray-700 mb-4">
+          $15.00
+        </p>
+
+        <p class="text-gray-600 leading-relaxed mb-8">
+          Neque porro quisquam est, qui dolore ipsum quia dolor sit amet, consectetur adipisci velit, sed quia non incidunt lores ta porro ame. numquam eius modi tempora incidunt lores ta porro ame.
+        </p>
+
+        <!-- Quantity + button -->
+        <div class="flex items-center gap-4">
+
+          <label for="quantity" class="sr-only">Quantity</label>
+          <input 
+            id="quantity"
+            type="number" 
+            value="1" 
+            min="1"
+            aria-label="Product quantity"
+            class="w-16 border border-gray-300 text-center py-2 rounded"
+          />
+
+          <button
+            class="bg-red-400 hover:bg-red-500 text-white font-semibold py-2 px-6 rounded">
+            ADD TO CART
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+</html>
