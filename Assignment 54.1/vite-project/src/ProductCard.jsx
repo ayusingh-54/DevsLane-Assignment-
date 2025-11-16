@@ -84,7 +84,9 @@ export default function ProductCard({ p }) {
       </div>
       <div className="pt-3 flex flex-col grow">
         <div className="text-xs text-gray-500 mb-1.5">{p.category}</div>
-        <h3 className="text-[15px] m-0 mb-1.5 text-gray-900 min-h-9">{p.title}</h3>
+        <h3 className="text-[15px] m-0 mb-1.5 text-gray-900 min-h-9">
+          {p.title}
+        </h3>
         <div className="text-amber-500 text-xs mb-2">★★★★★</div>
         <div className="flex items-center gap-2 mt-auto">
           <span className="font-bold text-gray-900">{p.price}</span>
