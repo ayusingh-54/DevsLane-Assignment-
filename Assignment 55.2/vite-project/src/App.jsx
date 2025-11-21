@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import ProductCard, { products } from "./ProductCard";
+import ProductCard from "./ProductCard";
 import ProductDetail from "./ProductDetail";
+import { products } from "./data/productsData";
 
 export default function App() {
   const [selectedProduct, setSelectedProduct] = useState(null);
