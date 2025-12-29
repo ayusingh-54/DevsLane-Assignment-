@@ -4,7 +4,7 @@ import { FiMail, FiLock, FiShoppingCart, FiArrowUp } from "react-icons/fi";
 import { Link } from "react-router-dom";
 
 function Login() {
-  // Validation Schema
+ 
   const validationSchema = Yup.object({
     email: Yup.string()
       .email("Please enter a valid email address")
