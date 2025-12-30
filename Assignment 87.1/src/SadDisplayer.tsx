@@ -1,11 +1,8 @@
-import React, { memo } from "react";
+import { memo } from "react";
 import { useSelector } from "react-redux";
 import { SadCounterSelector } from "./Selector";
 
-type SadDisplayerProps = {};
-
-const SadDisplayer: React.FC<SadDisplayerProps> = (props) => {
-    
+const SadDisplayer = () => {
     const sadCountr = useSelector(SadCounterSelector);
     return (
         <div className="bg-blue-700 px-8 py-4">

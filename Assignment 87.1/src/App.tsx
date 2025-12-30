@@ -1,4 +1,3 @@
-import React from "react";
 import HappyDisplayer from "./HappyDisplayer";
 import  SadDisplayer from "./SadDisplayer";
 import HappyIncrementor from "./HappyIncrementor";

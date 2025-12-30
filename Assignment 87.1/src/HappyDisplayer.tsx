@@ -1,10 +1,8 @@
-import React, { memo, use } from "react";
+import { memo } from "react";
 import { HappyCounterSelector } from "./Selector";
 import { useSelector } from "react-redux";
 
-type HappyDisplayerProps = {};
-
-const HappyDisplayer: React.FC<HappyDisplayerProps> = (props) => {
+const HappyDisplayer = () => {
     const happycounter = useSelector(HappyCounterSelector); 
     return (
         <div className="bg-orange-700 px-8 py-4">

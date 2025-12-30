@@ -1,11 +1,8 @@
-import {  memo, type FC } from 'react';
-import HappyIncrementor from './HappyIncrementor';
+import {  memo } from 'react';
 import { sadbuttonClicked } from './action';
 import { useDispatch } from 'react-redux';
 
-type SadIncrementorProps = {};
-
-const SadIncrementor: FC<SadIncrementorProps> = (props) => {   
+const SadIncrementor = () => {   
     const dispatch = useDispatch();
     function increment() {
     dispatch(sadbuttonClicked);
